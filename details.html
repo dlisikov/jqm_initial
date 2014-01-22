@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+
+        <script src="js/lib/require.js" data-main="js/bootstrap"></script>
+    </head>
+    <body>
+        <div id="details" data-role="page">
+
+	        <div data-role="header">
+		        <h1>Current Weather in <span data-bind="text: cityName"></span></h1>
+	        </div>
+
+	        <div role="main" class="ui-content">
+		        The weather is nice
+	        </div>
+
+	        <div data-role="footer">
+		        <h4>Current location: Munich</h4>
+	        </div>
+        </div>
+    </body>
+</html>
